@@ -1,0 +1,16 @@
+package ExceptionHandling;
+
+public class ArrayIndexOutOfBoundss {
+
+	public static void main(String[] args) {
+		int[] arr= {1,2,3};
+		
+		try {
+			System.out.println(arr[6]);
+		}catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("Invalid Index!");
+		}
+
+	}
+
+}
